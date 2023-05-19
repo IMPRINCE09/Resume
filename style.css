@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    /* #7d2ae8 */
+    /* background: rgb(8, 14, 43,0.5); */
+    background: -webkit-linear-gradient(left, #d6e2d6, #c4aac1);
+   
+}
+.sidebar{
+    background-color: #0d74f5;
+   
+    font-family: 'Roboto Slab', serif;
+    transition: transform 0.2s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+     padding: 25px;
+    height: 120vh;
+     
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 30px 0px 0px 20px;
+   
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: #ffff;
+   
+
+}
+.sidebar nav li a:hover{
+    color: rgb(18, 19, 67);
+  
+   
+
+}
+
+.main{  
+ 
+    width: 100vw;
+    padding: 8px;
+   
+}
+/* <-- designing background--> */
+
+.wrap span {
+	position: fixed;
+	/* bottom: -180px; */
+	height: 50px;
+	width: 50px;
+	z-index: -1;
+	background-color: rgb(211, 203, 203);
+	box-shadow: 0 0 50px #fbecd6, 0 0 80px #fbecd6, 0 0 70px #fbecd6, 0 0 1600px #fbecd6;
+	animation: animate 10s linear infinite;
+   
+    
+}
+.wrapspan:nth-child(1) {
+	left: 60px;
+	animation-delay: 0.6s;
+    
+}
+.wrap span:nth-child(2) {
+	left: 10%;
+	animation-delay: 3s;
+	width: 60px;
+	height: 60px;
+}
+.wrap span:nth-child(3) {
+	left: 20%;
+	animation-delay: 2s;
+    margin-top: 100px;
+}
+.wrap span:nth-child(4) {
+	left: 30%;
+	animation-delay: 5s;
+	width: 80px;
+	height: 80px;
+    margin-top: 50px;
+}
+.wrap span:nth-child(5) {
+	left: 40%;
+	animation-delay: 1s;
+}
+.wrap span:nth-child(6) {
+	left: 50%;
+	animation-delay: 7s;
+}
+.wrap span:nth-child(7) {
+	left: 60%;
+	animation-delay: 6s;
+	width: 100px;
+	height: 100px;
+    margin-top: 100px;
+}
+.wrap span:nth-child(8) {
+	left: 70%;
+	animation-delay: 8s;
+}
+.wrap span:nth-child(9) {
+	left: 80%;
+	animation-delay: 6s;
+	width: 90px;
+	height: 90px;
+}
+.wrap span:nth-child(10) {
+	left: 90%;
+	animation-delay: 4s;
+}
+
+.content h2 b {
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #fff;
+	font-family: montserrat;
+	font-size: 80px;
+	text-transform: uppercase;
+	letter-spacing: 12px;
+}
+/* @keyframes animate {
+	0% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	80% {
+		opacity: .7;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+} */
+
+/* <-- style of the textweb developer---> */
+.autoTyping {
+    
+    
+    /* display: grid; */
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.container{
+    display: flex;
+}
+.infocontainer{
+    height: 78vh;
+    width: 80vw;
+    margin: 95px auto;
+    display: flex;
+    justify-content: space-around;
+  
+   
+    
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'PT Serif', serif;
+}
+.hello{
+    font-size: 75px;
+    color: #fff;
+  
+
+}
+.name{
+    font-size:65px ;
+    font-weight: lighter;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+.about{
+font-size: 50px;
+color: #fa0303;
+
+}
+.more-about{
+    
+    margin: 30px 30px 10px 30px;
+    
+    
+}
+.fa-brands{
+    padding: 10px;
+}
+.fa-github{
+  color: solid black;
+}
+.fa-facebook{
+    color  : #0d74f5 ;
+}
+.fa-square-instagram{
+   color: red;
+}
+.fa-linkedin{
+ color  : #0d74f5 ;
+}
+
+
+.buttons{
+    margin-top: 30px;
+}
+.btn{
+ padding: 9px 14px;
+ border-radius: 9px ;
+ border: dodgerblue;
+ color: white;
+ background-color: dodgerblue;
+ /* font-weight: bold; */
+ font-size: 21px;
+ margin: 0 3px;
+ cursor: pointer;
+}
+.btn-sm{
+    font-size: 17px;
+}
+.btn:hover{
+color: dodgerblue;
+background-color: #ffff;
+
+}
+.devpic img{
+    width: 280px;
+    height: 68vh;
+    border-radius:180px
+    
+}
+
+.cross{
+    padding: 9px;
+    
+  
+}
+.sidePaper{
+    padding: 40px 0px 0px 0px;
+    font-size: 25px;
+    font-weight: 50;
+    color: #fafafc;
+    
+}
+.spanName{
+    color: #0ded50;
+    padding: 10px;
+    font-weight: 50;
+}
+.fa-solid{
+    color: rgb(33, 247, 17);
+    margin: 0px 5px 0px 0px;
+}
+
+
+
+/* <- blog styling area -> */
+
+.main-blog{
+ width: 100vw;
+}
+.blogitem {
+ margin: 20px;
+ font-family: 'Roboto Slab', serif;
+ 
+}
+.blogcontainer h1{
+
+  font-family: 'Roboto Slab', serif;
+  margin: 23px;
+
+  
+}
+
+
+/* <-- into styling sheet-> */
+.main-intro{
+    width: 100vw;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+   align-items: center;
+    
+}
+.skill{
+    width: 300px;
+    height: 10px;
+    background-color: red;
+
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.cross{
+  margin-left: 115px;
+}
+.sidebarGo{
+    transform: translate(-240px,0px);
+    position: absolute;
+  }
+
+@media (max-width:1115px){
+  /* *{
+    background-color: aqua;
+    flex-direction: column;
+  } */
+  /* .sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+  } */
+  .infocontainer{
+    height: auto;
+    flex-direction: column;
+    width: 80vw;
+   
+
+
+  }
+  .main{
+width: 100vw;
+display: flex;
+
+  }
+  .main-blog,
+  .main-contact,
+  .main-intro{
+   width: 100vw;
+  display: flex;
+   
+  }
+  .btn{
+    margin: 10px;
+  }
+
+  .devinfo{
+    margin: 20px ;
+     text-align: center; 
+   
+    
+  }
+  .devpic{
+       
+     margin: auto;
+
+   
+    
+  }
+
+  .hello{
+     font-size: 40px;
+  }
+  .name{
+       font-size: 30px;
+  }
+  .about{
+    font-size: 24px;
+  
+  }
+  .more-about{
+    font-size: 20px;
+}
+
+
+.autoTyping{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.typing-demo {
+    
+    width: 22ch; 
+        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        white-space: nowrap; 
+         
+         
+         
+        font-family: monospace;
+       
+        font-weight: 600;
+      }
+      .more-about{
+    
+        /* margin: 30px 30px 10px 30px; */
+        margin: auto;
+        padding-top: 23px;
+        
+        
+    }
+   
+  
+
+
+
+}
+
+
+

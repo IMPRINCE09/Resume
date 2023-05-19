@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+
+.introSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.head-section{
+    font-size: 4em;
+    padding: 10px;
+    
+}
+.spanName{
+    color: rgb(245, 118, 20);
+    font-weight: bold;
+  
+}
+.para{
+    font-size: 20px;
+}
+.Section{
+    display: flex;
+    justify-content: center;
+
+
+}
+.leftSection{
+    width: 45%;
+    background-color: rgba(184, 133, 133, 0.3);
+    margin: 40px 0px 0px 100px;
+    
+    
+}
+.nameTag{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 28px;
+    
+}
+.paraSection{
+    
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding: 1px;
+    margin-top: 20px;
+    
+}
+.rightSection{
+    width: 50%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+.rightSection img{
+   
+    width: 240px;
+    box-sizing: border-box;
+    box-shadow: 4rem 2rem rgb(245, 118, 20); 
+
+}
+.schooling{
+    display: flex;
+
+}
+.partContainer{
+    display: flex;
+    
+    margin: 50px 0px 0px 60px;
+    /* background-color: rgb(244, 242, 240 ,.3); */
+}
+.intermediate{
+   padding: 20px;
+   margin-top: 10px;
+   height: 200px;
+   background-color: aliceblue;
+   font-family: 'Roboto Slab', serif;
+ 
+}
+.schoolImg{
+    padding: 20px;
+    margin: 10px;
+    height: 200px;
+    background-color: aliceblue;
+    
+}
+.HighSchool{
+    padding: 20px;
+   margin-top: 10px;
+   height: 200px;
+   background-color: aliceblue;
+   font-family: 'Roboto Slab', serif;
+}
+.Graduate{
+    padding: 20px;
+    margin: 60px 20px 20px 20px;
+    background-color: aliceblue;
+    height: 200px;
+    font-family: 'Roboto Slab', serif;
+}
+.spanTarget{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(245, 118, 20);
+}
+
+
+
+@media (max-width:840px){
+    .introSection{
+        
+        margin-left: 50px;
+    }
+    .Section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftSection{
+        width: 70%;
+        background-color: rgba(184, 133, 133, 0.3);
+        margin: 40px 0px 0px 40px;
+        
+        
+    }
+    .partContainer{
+        width: 350px;
+        margin: 50px 0px 0px 0px;
+    }
+    /* .intermediate,
+    
+    .HighSchool
+ {
+         width: ;
+       
+    
+    } */
+    .Graduate{
+        height: auto;
+    }
+    
+}
+@media (max-width:1140px ){
+    .schooling{
+       
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    
+    }
+    .partContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .intermediate,
+    
+    .HighSchool
+    {
+        width: 280px;
+    
+    }
+    .Graduate{
+      width: 300px;
+    }
+    
+}

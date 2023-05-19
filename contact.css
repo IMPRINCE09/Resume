@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+/* <--  contact from sytling --> */
+
+*{
+    font-family: 'Roboto Slab', serif;
+    
+}
+.main-contact{
+    background-image: url("https://ourpacificoffice.com/wp-content/uploads/2020/07/CONTACT-BANNER-1920x852-1.jpg");
+    width: 100vw;
+    height: 130vh;
+
+
+
+}
+.contactform {
+    padding: 0 34px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 245, 242 ,.5) ;
+    width: 45vw;
+    margin-top: 24px;
+    box-sizing: border-box;
+    height: 500px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 200px; 
+    font-family: 'PT Serif', serif;
+   
+
+}
+.contactform h1{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding: 12px 0px;
+
+}
+
+.contactform  form input{
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+    border-radius: 5px;
+    background-color: lightgrey;
+    height: 25px;
+    margin: 19px 0 0;
+    padding: 3px;
+    border: none;
+
+    
+
+}
+.contactform  form textarea{
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 19px 0 30px;
+    padding: 3px;
+    border: none;
+
+}
+#clienttext{
+    height: 80px; 
+    font-size: 20px;
+  
+    
+}
+
+
+
+
+@media (max-width:1140px){
+    .contactform{
+        
+       width: 55vw; 
+       margin-left: 90px;
+       
+      
+        
+    }
+    .contactform  form input,
+    .contactform  form textarea{
+        width: 45vw; 
+    }
+
+}
+@media (max-width:650px){
+    .contactform{
+       
+        margin-left: 50px;
+        width: 80vw;
+        
+    }
+    
+    .contactform  form input,
+    .contactform  form textarea{
+        width: 60vw; 
+    }
+    #clientname,
+    #clientemail,
+    #clienttext{
+    height: 40px;
+    } 
+    
+}
